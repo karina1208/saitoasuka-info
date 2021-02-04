@@ -1,0 +1,125 @@
+.bg-image222 {
+    background: linear-gradient(40deg, #e8e8ff, #ffffff, #f3eef8, #ffffff, #f0e2ea);
+    background-size: 300% 300%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.videoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.videoThumbnail {
+    width: 100%;
+}
+
+.videobox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.customVideoMore {
+    background: #c0b7cc;
+    background-image: -webkit-linear-gradient(top, #c0b7cc, #c8c2d1);
+    background-image: -moz-linear-gradient(top, #c0b7cc, #c8c2d1);
+    background-image: -ms-linear-gradient(top, #c0b7cc, #c8c2d1);
+    background-image: -o-linear-gradient(top, #c0b7cc, #c8c2d1);
+    background-image: linear-gradient(to bottom, #c0b7cc, #c8c2d1);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 0px;
+    margin-left: auto;
+}
+
+.customVideoMore:hover {
+    background: #b5aebf;
+    color: white;
+    background-image: -webkit-linear-gradient(top, #b5aebf, #bcb6c4);
+    background-image: -moz-linear-gradient(top, #b5aebf, #bcb6c4);
+    background-image: -ms-linear-gradient(top, #b5aebf, #bcb6c4);
+    background-image: -o-linear-gradient(top, #b5aebf, #bcb6c4);
+    background-image: linear-gradient(to bottom, #b5aebf, #bcb6c4);
+    text-decoration: none;
+}
+
+.customVideoMore:active,
+.customVideoMore:focus {
+    border: 0px;
+    outline: none;
+}
+
+.breadcrumb {
+    margin-bottom: 8px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+
+ol>li>a {
+    color: rgb(151, 144, 192);
+    font-weight: bold;
+}
+
+.videoContainer {
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .videoGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .videoGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.ccuucuc {
+    height: auto;
+}
+
+.videoWholeButton {
+    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.videoWholeButton:hover {
+    text-decoration: none;
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
+
+.videoWholeButton img {
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    box-shadow: 10px 10px 25px 0 rgba(62, 48, 66, 0.2);
+}
+
+.videoWholeButton:hover img {
+    box-shadow: 1px 1px 10px 0 rgba(62, 48, 66, 0.1);
+}

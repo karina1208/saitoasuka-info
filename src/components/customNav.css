@@ -1,0 +1,28 @@
+.navbar-toggler {
+    border: 0px;
+    padding: 0px;
+    outline: none!important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none!important;
+}
+
+.custom-bg-nav {
+    background-color: #ffffff!important;
+    background-color: #ffffff;
+}
+
+.dropdownStyle {
+    border: 0px solid #aaaaaa;
+    border-radius: 0px;
+    outline: 0 !important;
+    color: #7e7e7e;
+    background-color: #ffffff00;
+}
+
+select:hover {
+    color: #242424;
+    transition: all .3s;
+}

@@ -1,0 +1,114 @@
+.customTd {
+    margin: 55px;
+}
+
+.blogPreview {
+    border: 0px;
+    position: relative;
+    width: 100%;
+}
+
+.img-hover-zoom img {
+    transition: transform .6s ease;
+}
+
+.hahhah {
+    padding: 10px;
+    /* border-radius: 5px; */
+}
+
+.boxes {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3%; */
+    /* margin: 2em 0; */
+    --translation: 0;
+}
+
+.boxes .box {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border: 0px solid #fff;
+    background: #fff3;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* animation: transform 1s ease; */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffffbe;
+}
+
+.blogPreview:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: rgb(92, 92, 92);
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 15px;
+}
+
+.customTd {
+    padding: 8px;
+}
+
+.my-customer-container-1 {
+    background: rgb(204, 195, 230);
+    background: linear-gradient(326deg, rgba(204, 195, 230, 1) 0%, rgba(179, 178, 213, 1) 31%, rgba(174, 188, 222, 1) 100%);
+}
+
+.my-custom-color-pro-1 {
+    background: rgb(235, 233, 241);
+}
+
+.my-custome-container-2 {
+    background-color: rgb(190, 190, 190);
+}
+
+.profileSection1pic {
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    box-shadow: 10px 10px 25px 0 rgba(62, 48, 66, 0.2);
+}
+
+.profilePics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 991px) {
+    .profilePics {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .profilePics {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 120px;
+    }
+}
