@@ -20,7 +20,7 @@ const App = () => {
     <div>
       <Suspense fallback={null}>
 
-        <HashRouter>
+        <HashRouter basename={ process.env.PUBLIC_URL }>
           <div>
 
             
