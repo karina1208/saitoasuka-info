@@ -22795,24 +22795,6 @@ a.u-link.u-hover-color-2-light-2:hover {
     background-color: #f3c4c7 !important;
 }
 
-.u-hover-color-2-light-3:hover,
-.u-hover-color-2-light-3[class*="u-border-"]:hover,
-.u-hover-color-2-light-3:focus,
-.u-hover-color-2-light-3[class*="u-border-"]:focus,
-.u-active-color-2-light-3.u-active.u-active,
-.u-active-color-2-light-3[class*="u-border-"].u-active.u-active,
-a.u-button-style.u-hover-color-2-light-3:hover,
-a.u-button-style.u-hover-color-2-light-3[class*="u-border-"]:hover,
-a.u-button-style.u-hover-color-2-light-3:focus,
-a.u-button-style.u-hover-color-2-light-3[class*="u-border-"]:focus,
-a.u-button-style.u-button-style.u-active-color-2-light-3:active,
-a.u-button-style.u-button-style.u-active-color-2-light-3[class*="u-border-"]:active,
-a.u-button-style.u-button-style.u-active-color-2-light-3.active,
-a.u-button-style.u-button-style.u-active-color-2-light-3[class*="u-border-"].active {
-    color: #111111 !important;
-    background-color: #fbeced !important;
-}
-
 a.u-link.u-hover-color-2-light-3:hover {
     color: #fbeced !important;
 }
@@ -25577,24 +25559,6 @@ a.u-link.u-hover-palette-4-base:hover {
 .u-button-style.u-button-style.u-palette-5-dark-3[class*="u-border-"].active {
     color: #ffffff !important;
     background-color: #25292e !important;
-}
-
-.u-hover-palette-5-dark-3:hover,
-.u-hover-palette-5-dark-3[class*="u-border-"]:hover,
-.u-hover-palette-5-dark-3:focus,
-.u-hover-palette-5-dark-3[class*="u-border-"]:focus,
-.u-active-palette-5-dark-3.u-active.u-active,
-.u-active-palette-5-dark-3[class*="u-border-"].u-active.u-active,
-a.u-button-style.u-hover-palette-5-dark-3:hover,
-a.u-button-style.u-hover-palette-5-dark-3[class*="u-border-"]:hover,
-a.u-button-style.u-hover-palette-5-dark-3:focus,
-a.u-button-style.u-hover-palette-5-dark-3[class*="u-border-"]:focus,
-a.u-button-style.u-button-style.u-active-palette-5-dark-3:active,
-a.u-button-style.u-button-style.u-active-palette-5-dark-3[class*="u-border-"]:active,
-a.u-button-style.u-button-style.u-active-palette-5-dark-3.active,
-a.u-button-style.u-button-style.u-active-palette-5-dark-3[class*="u-border-"].active {
-    color: #ffffff !important;
-    background-color: #292d33 !important;
 }
 
 a.u-link.u-hover-palette-5-dark-3:hover {
