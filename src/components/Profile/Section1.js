@@ -5,7 +5,7 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
 
-const picNum = getRandomInt(3) + 1
+const picNum = getRandomInt(7) + 1
 
 
 

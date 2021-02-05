@@ -4,70 +4,7 @@
  * Copyright 2014-2020 Froala Labs
  */
 
-
-/*.fr-view[dir="rtl"] blockquote {
-  border-left: none;
-  border-right: solid 2px #5E35B1;
-  margin-right: 0;
-  padding-right: 5px;
-  padding-left: 0; }
-  .fr-view[dir="rtl"] blockquote blockquote {
-    border-color: #00BCD4; }
-    .fr-view[dir="rtl"] blockquote blockquote blockquote {
-      border-color: #43A047; }
-.fr-view blockquote {
-  border-left: solid 2px #5E35B1;
-  margin-left: 0;
-  padding-left: 5px;
-  color: #5E35B1; }
-  .fr-view blockquote blockquote {
-    border-color: #00BCD4;
-    color: #00BCD4; }
-    .fr-view blockquote blockquote blockquote {
-      border-color: #43A047;
-      color: #43A047; }*/
-
-
-/**
- * Image style.
- */
-
-
-/**
- * Link style.
- */
-
-
-/*begin-commonstyles animate*/
-
 @charset "UTF-8";
-
-/*!
- * animate.css -https://daneden.github.io/animate.css/
- * Version - 3.7.2
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2019 Daniel Eden
- */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/*end-commonstyles animate*/
-
-
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
-
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -143,88 +80,16 @@ ol {
     padding-left: 20px;
 }
 
-
-/* Fade effect */
-
-
-/* Over effect */
-
-
-/* Slide effect */
-
-
-/* Over and Slide effect */
-
-
-/* Flip Left effect */
-
-
-/* Flip Right effect */
-
-
-/* Flip Top effect */
-
-
-/* Flip Bottom effect */
-
-
-/* Wobble Left effect */
-
-
-/* Wobble Right effect */
-
-
-/* Wobble top effect */
-
-
-/* Wobble bottom effect */
-
-
-/* Zoom and Rotate Effects */
-
-
-/* Utility */
-
-
-/* Fade effect */
-
-
-/* Over effect */
-
-
-/* Slide effect */
-
-
-/* Flip */
-
-
-/* Wooble */
-
-
-/* Zoom */
-
 a {
     border-top-width: 0;
     border-left-width: 0;
     border-right-width: 0;
 }
 
-
-/* ********  spacing ******** */
-
-
-/* ********  end of spacing ******** */
-
 *,
 *:before,
 *:after {
     box-sizing: border-box;
-}
-
-html {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
 }
 
 body {
@@ -280,50 +145,10 @@ img.u-image {
     overflow: hidden;
 }
 
-.u-sheet {
-    position: relative;
-    width: 1140px;
-    margin: 0 auto;
-}
-
-@media (min-width: 1200px) {
-    .u-sheet {
-        width: 1140px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .u-sheet {
-        width: 940px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .u-sheet {
-        width: 720px;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767px) {
-    .u-sheet {
-        width: 540px;
-    }
-}
-
-@media (max-width: 575px) {
-    .u-sheet {
-        width: 340px;
-    }
-}
-
 .u-container-layout {
     position: relative;
     flex: 1;
     max-width: 100%;
-}
-
-.u-container-layout>* {
-    position: relative;
 }
 
 .u-expanded-width {
@@ -470,6 +295,7 @@ h4 {
     line-height: 1.2;
     font-weight: 500;
     color: inherit;
+    font-family: Roboto, sans-serif;
 }
 
 h2 {
@@ -526,186 +352,12 @@ p {
     right: 0;
 }
 
-
-/*begin-commonstyles photoswipe*/
-
-
-/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
-
-
-/*
-	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
-*/
-
-
-/* pswp = photoswipe */
-
-
-/* style is added when JS option showHideOpacity is set to true */
-
-
-/*
-	Background is added as a separate element.
-	As animating opacity is much faster than animating rgba() background-color.
-*/
-
-
-/* Prevent selection and tap highlights */
-
-
-/*
-	stretched thumbnail or div placeholder element (see below)
-	style is added to avoid flickering in webkit/blink when layers overlap
-*/
-
-
-/*
-	div element that matches size of large image
-	large image loads on top of it
-*/
-
-
-/*
-	Error message appears when image is not loaded
-	(JS option errorMsg controls markup)
-*/
-
-
-/* previews */
-
-
-/* end previews  */
-
-
-/*end-commonstyles photoswipe*/
-
-
-/*begin-commonstyles photoswipe-default*/
-
-
-/*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
-
-
-/*
-
-	Contents:
-
-	1. Buttons
-	2. Share modal and links
-	3. Index indicator ("1 of X" counter)
-	4. Caption
-	5. Loading indicator
-	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
-
-*/
-
-
-/*
-
-	1. Buttons
-
- */
-
-
-/* <button> css reset */
-
-
-/* pswp__ui--over-close class it added when mouse is over element that should close gallery */
-
 @media (-webkit-min-device-pixel-ratio: 1.1),
 (-webkit-min-device-pixel-ratio: 1.09375),
 (min-resolution: 105dpi),
 (min-resolution: 1.1dppx) {
     /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
 }
-
-
-/* no arrows on touch screens */
-
-
-/*
-	Arrow buttons hit area
-	(icon is added to :before pseudo-element)
-*/
-
-
-/*
-
-	2. Share modal/popup and links
-
- */
-
-
-/* increase size of share links on touch devices */
-
-
-/*
-
-	3. Index indicator ("1 of X" counter)
-
- */
-
-
-/*
-
-	4. Caption
-
- */
-
-
-/* Fake caption element, used to calculate height of next/prev image */
-
-
-/*
-
-	5. Loading indicator (preloader)
-
-	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
-
- */
-
-
-/*
-
-	6. Additional styles
-
- */
-
-
-/* root element of UI */
-
-
-/* top black bar with buttons and "1 of X" indicator */
-
-
-/* pswp--has_mouse class is added only when two subsequent mousemove events occur */
-
-
-/* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
-
-
-/* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
-
-
-/*
-	pswp__ui--hidden class is added when controls are hidden
-	e.g. when user taps to toggle visibility of controls
-*/
-
-
-/* pswp__ui--one-slide class is added when there is just one item in gallery */
-
-
-/*end-commonstyles photoswipe-default*/
-
-
-/*begin-commonstyles animation*/
-
-
-/* Fix zoomIn animation for Internet Explorer */
-
-
-/*end-commonstyles animation*/
 
 .sr-only {
     position: absolute;
@@ -718,36 +370,9 @@ p {
     border: 0;
 }
 
-
-/*begin-variables font-family*/
-
-h2,
-h3,
-h4 {
-    font-family: Roboto, sans-serif;
-}
-
-
-/*end-variables font-family*/
-
-
-/*begin-variables color*/
-
 .u-image {
     color: #111111;
 }
-
-
-/*end-variables color*/
-
-
-/*begin-variables font*/
-
-
-/*end-variables font*/
-
-
-/*begin-variables colors*/
 
 .u-palette-4-base,
 .u-container-style.u-palette-4-base:before {
@@ -758,23 +383,6 @@ h4 {
 .u-text-white {
     color: #ffffff !important;
 }
-
-.u-text-grey-50 {
-    color: #808080 !important;
-}
-
-
-/*end-variables colors*/
-
-
-/*begin-variables sitestylecss*/
-
-.u-text-custom-color-4 {
-    color: #8d83bf !important;
-}
-
-
-/** common-rules **/
 
 h2:not(.u-subtitle) {
     font-weight: 400;
@@ -800,6 +408,14 @@ h4 {
     margin-bottom: 20px;
 }
 
+h5 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 p:not(.u-text-variant) {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -809,15 +425,6 @@ ol {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
-/** common-rules **/
-
-
-/** publish-rules **/
-
-
-/*begin-media rules*/
 
 @media (max-width: 575px) {
     h2:not(.u-subtitle) {
@@ -831,27 +438,6 @@ ol {
     }
 }
 
-
-/*end-media rules*/
-
-
-/** publish-rules **/
-
-
-/** cms-rules **/
-
-
-/*begin-responsive rules*/
-
-
-/*end-responsive rules*/
-
-
-/** cms-rules **/
-
-
-/** color-rules **/
-
 a {
     color: #478ac9;
 }
@@ -860,229 +446,15 @@ a:hover {
     color: #387cbd;
 }
 
-
-/** color-rules **/
-
-
-/** alt-color-rules **/
-
-
-/** alt-color-rules **/
-
-
-/*end-variables sitestylecss*/
-
-
-/*begin-variables base-font-size*/
-
-html {
-    font-size: 16px;
-}
-
-
-/*end-variables base-font-size*/
-
-
-/*!
- * froala_editor v3.2.3 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2020 Froala Labs
- */
-
-
-/*.fr-view[dir="rtl"] blockquote {
-  border-left: none;
-  border-right: solid 2px #5E35B1;
-  margin-right: 0;
-  padding-right: 5px;
-  padding-left: 0; }
-  .fr-view[dir="rtl"] blockquote blockquote {
-    border-color: #00BCD4; }
-    .fr-view[dir="rtl"] blockquote blockquote blockquote {
-      border-color: #43A047; }
-.fr-view blockquote {
-  border-left: solid 2px #5E35B1;
-  margin-left: 0;
-  padding-left: 5px;
-  color: #5E35B1; }
-  .fr-view blockquote blockquote {
-    border-color: #00BCD4;
-    color: #00BCD4; }
-    .fr-view blockquote blockquote blockquote {
-      border-color: #43A047;
-      color: #43A047; }*/
-
-
-/**
- * Image style.
- */
-
-
-/**
- * Link style.
- */
-
-
-/*begin-commonstyles animate*/
-
-@charset "UTF-8";
-
-/*!
- * animate.css -https://daneden.github.io/animate.css/
- * Version - 3.7.2
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2019 Daniel Eden
- */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/*end-commonstyles animate*/
-
-
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
-
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    margin: 0;
-}
-
-nav,
-section {
-    display: block;
-}
-
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-}
-
 a:active,
 a:hover {
     outline-width: 0;
-}
-
-img {
-    border-style: none;
-}
-
-button,
-select {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
-
-button {
-    overflow: visible;
 }
 
 button,
 select {
     text-transform: none;
 }
-
-button,
-html [type="button"] {
-    -webkit-appearance: button;
-}
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-}
-
-button:-moz-focusring,
-[type="button"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
-}
-
-::-webkit-input-placeholder {
-    color: inherit;
-    opacity: 0.54;
-}
-
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit;
-}
-
-
-/* Fade effect */
-
-
-/* Over effect */
-
-
-/* Slide effect */
-
-
-/* Over and Slide effect */
-
-
-/* Flip Left effect */
-
-
-/* Flip Right effect */
-
-
-/* Flip Top effect */
-
-
-/* Flip Bottom effect */
-
-
-/* Wobble Left effect */
-
-
-/* Wobble Right effect */
-
-
-/* Wobble top effect */
-
-
-/* Wobble bottom effect */
-
-
-/* Zoom and Rotate Effects */
-
-
-/* Utility */
-
-
-/* Fade effect */
-
-
-/* Over effect */
-
-
-/* Slide effect */
-
-
-/* Flip */
-
-
-/* Wooble */
-
-
-/* Zoom */
 
 .u-text a {
     font-size: inherit;
@@ -1101,18 +473,6 @@ button:-moz-focusring,
     text-decoration: none;
 }
 
-a {
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-}
-
-
-/* ********  spacing ******** */
-
-
-/* ********  end of spacing ******** */
-
 *,
 *:before,
 *:after {
@@ -1125,11 +485,6 @@ html {
     overflow-x: hidden;
 }
 
-body {
-    height: auto;
-    min-height: 100%;
-}
-
 body,
 section {
     position: relative;
@@ -1139,48 +494,8 @@ section>* {
     position: relative;
 }
 
-a {
-    color: #259bca;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0676a4;
-}
-
-a:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
-}
-
-.u-clearfix:after,
-.u-clearfix:before {
-    content: '';
-    display: table;
-}
-
-.u-clearfix:after {
-    clear: both;
-}
-
-.u-image {
-    object-fit: cover;
-    display: block;
-    vertical-align: middle;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-}
-
 section.u-image {
     overflow: visible;
-}
-
-.u-container-layout {
-    position: relative;
-    flex: 1;
-    max-width: 100%;
 }
 
 .u-container-layout>* {
@@ -1205,55 +520,6 @@ section.u-image {
     max-width: 100%;
 }
 
-.u-layout-row {
-    display: flex;
-}
-
-.u-layout-row {
-    flex: 1 1 100%;
-}
-
-.u-layout-row>* {
-    max-height: 100%;
-    min-height: -webkit-fit-content;
-    min-height: fit-content;
-}
-
-@media (max-width: 767px) {
-    .u-layout-row>* {
-        min-width: 100%;
-    }
-}
-
-.u-layout-row {
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-height: 100%;
-    max-width: 100%;
-}
-
-.u-layout-cell {
-    position: relative;
-    display: flex;
-    background-clip: padding-box;
-    background-origin: padding-box;
-}
-
-@supports (position: sticky) {}
-
-@supports (position: -webkit-sticky) {}
-
-@media (max-width: 767px) {
-    .u-layout-wrap .u-layout {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-    .u-layout-wrap .u-layout .u-layout-cell {
-        border-left: 0 !important;
-        border-right: 0 !important;
-    }
-}
-
 .u-line.u-line-horizontal {
     border-right-width: 0;
     border-left-width: 0;
@@ -1269,10 +535,6 @@ section.u-image {
     border-radius: 50%;
 }
 
-html {
-    font-size: 16px;
-}
-
 h4,
 h5 {
     margin-top: 0;
@@ -1280,6 +542,7 @@ h5 {
     line-height: 1.2;
     font-weight: 500;
     color: inherit;
+    font-family: Roboto, sans-serif;
 }
 
 h4 {
@@ -1288,12 +551,6 @@ h4 {
 
 h5 {
     font-size: 1.125rem;
-}
-
-p {
-    margin-top: 0;
-    padding: 0;
-    margin-bottom: 0.5rem;
 }
 
 .u-text {
@@ -1320,187 +577,6 @@ p {
     right: 0;
 }
 
-
-/*begin-commonstyles photoswipe*/
-
-
-/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
-
-
-/*
-	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
-*/
-
-
-/* pswp = photoswipe */
-
-
-/* style is added when JS option showHideOpacity is set to true */
-
-
-/*
-	Background is added as a separate element.
-	As animating opacity is much faster than animating rgba() background-color.
-*/
-
-
-/* Prevent selection and tap highlights */
-
-
-/*
-	stretched thumbnail or div placeholder element (see below)
-	style is added to avoid flickering in webkit/blink when layers overlap
-*/
-
-
-/*
-	div element that matches size of large image
-	large image loads on top of it
-*/
-
-
-/*
-	Error message appears when image is not loaded
-	(JS option errorMsg controls markup)
-*/
-
-
-/* previews */
-
-
-/* end previews  */
-
-
-/*end-commonstyles photoswipe*/
-
-
-/*begin-commonstyles photoswipe-default*/
-
-
-/*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
-
-
-/*
-
-	Contents:
-
-	1. Buttons
-	2. Share modal and links
-	3. Index indicator ("1 of X" counter)
-	4. Caption
-	5. Loading indicator
-	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
-
-*/
-
-
-/*
-
-	1. Buttons
-
- */
-
-
-/* <button> css reset */
-
-
-/* pswp__ui--over-close class it added when mouse is over element that should close gallery */
-
-@media (-webkit-min-device-pixel-ratio: 1.1),
-(-webkit-min-device-pixel-ratio: 1.09375),
-(min-resolution: 105dpi),
-(min-resolution: 1.1dppx) {
-    /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
-}
-
-
-/* no arrows on touch screens */
-
-
-/*
-	Arrow buttons hit area
-	(icon is added to :before pseudo-element)
-*/
-
-
-/*
-
-	2. Share modal/popup and links
-
- */
-
-
-/* increase size of share links on touch devices */
-
-
-/*
-
-	3. Index indicator ("1 of X" counter)
-
- */
-
-
-/*
-
-	4. Caption
-
- */
-
-
-/* Fake caption element, used to calculate height of next/prev image */
-
-
-/*
-
-	5. Loading indicator (preloader)
-
-	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
-
- */
-
-
-/*
-
-	6. Additional styles
-
- */
-
-
-/* root element of UI */
-
-
-/* top black bar with buttons and "1 of X" indicator */
-
-
-/* pswp--has_mouse class is added only when two subsequent mousemove events occur */
-
-
-/* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
-
-
-/* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
-
-
-/*
-	pswp__ui--hidden class is added when controls are hidden
-	e.g. when user taps to toggle visibility of controls
-*/
-
-
-/* pswp__ui--one-slide class is added when there is just one item in gallery */
-
-
-/*end-commonstyles photoswipe-default*/
-
-
-/*begin-commonstyles animation*/
-
-
-/* Fix zoomIn animation for Internet Explorer */
-
-
-/*end-commonstyles animation*/
-
 [class*="u-border-"] {
     border-style: solid;
 }
@@ -1509,248 +585,18 @@ p {
     border-width: 6px;
 }
 
-
-/*begin-variables font-family*/
-
-h4,
-h5 {
-    font-family: Roboto, sans-serif;
-}
-
-
-/*end-variables font-family*/
-
-
-/*begin-variables color*/
-
-.u-image {
-    color: #111111;
-}
-
-
-/*end-variables color*/
-
-
-/*begin-variables font*/
-
-
-/*end-variables font*/
-
-
-/*begin-variables colors*/
-
 .u-grey-5 {
     color: #111111;
     background-color: #f2f2f2;
 }
-
-.u-text-grey-50 {
-    color: #808080 !important;
-}
-
-
-/*end-variables colors*/
-
-
-/*begin-variables sitestylecss*/
 
 .u-border-custom-color-4 {
     border-color: #8d83bf;
     stroke: #8d83bf;
 }
 
-
-/** common-rules **/
-
-h4 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.2;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-h5 {
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 1.2;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-p:not(.u-text-variant) {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-
-/** common-rules **/
-
-
-/** publish-rules **/
-
-
-/*begin-media rules*/
-
-
-/*end-media rules*/
-
-
-/** publish-rules **/
-
-
-/** cms-rules **/
-
-
-/*begin-responsive rules*/
-
-
-/*end-responsive rules*/
-
-
-/** cms-rules **/
-
-
-/** color-rules **/
-
-a {
-    color: #478ac9;
-}
-
-a:hover {
-    color: #387cbd;
-}
-
-
-/** color-rules **/
-
-
-/** alt-color-rules **/
-
-
-/** alt-color-rules **/
-
-
-/*end-variables sitestylecss*/
-
-
-/*begin-variables base-font-size*/
-
-html {
-    font-size: 16px;
-}
-
-
-/*end-variables base-font-size*/
-
-
-/*!
- * froala_editor v3.2.3 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2020 Froala Labs
- */
-
-
-/*.fr-view[dir="rtl"] blockquote {
-  border-left: none;
-  border-right: solid 2px #5E35B1;
-  margin-right: 0;
-  padding-right: 5px;
-  padding-left: 0; }
-  .fr-view[dir="rtl"] blockquote blockquote {
-    border-color: #00BCD4; }
-    .fr-view[dir="rtl"] blockquote blockquote blockquote {
-      border-color: #43A047; }
-.fr-view blockquote {
-  border-left: solid 2px #5E35B1;
-  margin-left: 0;
-  padding-left: 5px;
-  color: #5E35B1; }
-  .fr-view blockquote blockquote {
-    border-color: #00BCD4;
-    color: #00BCD4; }
-    .fr-view blockquote blockquote blockquote {
-      border-color: #43A047;
-      color: #43A047; }*/
-
-
-/**
- * Image style.
- */
-
-
-/**
- * Link style.
- */
-
-
-/*begin-commonstyles animate*/
-
-@charset "UTF-8";
-
-/*!
- * animate.css -https://daneden.github.io/animate.css/
- * Version - 3.7.2
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2019 Daniel Eden
- */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-
-/*end-commonstyles animate*/
-
-
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
-
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    margin: 0;
-}
-
 nav {
     display: block;
-}
-
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-}
-
-a:active,
-a:hover {
-    outline-width: 0;
-}
-
-img {
-    border-style: none;
-}
-
-button,
-select {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
-
-button {
-    overflow: visible;
 }
 
 button,
@@ -1758,154 +604,26 @@ select {
     text-transform: none;
 }
 
-button,
-html [type="button"] {
-    -webkit-appearance: button;
-}
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-}
-
-button:-moz-focusring,
-[type="button"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
-}
-
-::-webkit-input-placeholder {
-    color: inherit;
-    opacity: 0.54;
-}
-
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit;
-}
-
-
-/* Fade effect */
-
-
-/* Over effect */
-
-
-/* Slide effect */
-
-
-/* Over and Slide effect */
-
-
-/* Flip Left effect */
-
-
-/* Flip Right effect */
-
-
-/* Flip Top effect */
-
-
-/* Flip Bottom effect */
-
-
-/* Wobble Left effect */
-
-
-/* Wobble Right effect */
-
-
-/* Wobble top effect */
-
-
-/* Wobble bottom effect */
-
-
-/* Zoom and Rotate Effects */
-
-
-/* Utility */
-
-
-/* Fade effect */
-
-
-/* Over effect */
-
-
-/* Slide effect */
-
-
-/* Flip */
-
-
-/* Wooble */
-
-
-/* Zoom */
-
-a {
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-}
-
-
-/* ********  spacing ******** */
-
-
-/* ********  end of spacing ******** */
-
 *,
 *:before,
 *:after {
     box-sizing: border-box;
 }
 
-html {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
-body {
-    height: auto;
-    min-height: 100%;
-}
-
 body {
     position: relative;
-}
-
-a {
-    color: #259bca;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0676a4;
-}
-
-a:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
 }
 
 @supports (position: sticky) {}
 
 @supports (position: -webkit-sticky) {}
 
-html {
-    font-size: 16px;
-}
-
 h4 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-size: 1.5rem;
     line-height: 1.2;
-    font-weight: 500;
-    color: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h4 {
@@ -1917,299 +635,12 @@ h4 {
     position: relative;
 }
 
-
-/*begin-commonstyles photoswipe*/
-
-
-/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
-
-
-/*
-	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
-*/
-
-
-/* pswp = photoswipe */
-
-
-/* style is added when JS option showHideOpacity is set to true */
-
-
-/*
-	Background is added as a separate element.
-	As animating opacity is much faster than animating rgba() background-color.
-*/
-
-
-/* Prevent selection and tap highlights */
-
-
-/*
-	stretched thumbnail or div placeholder element (see below)
-	style is added to avoid flickering in webkit/blink when layers overlap
-*/
-
-
-/*
-	div element that matches size of large image
-	large image loads on top of it
-*/
-
-
-/*
-	Error message appears when image is not loaded
-	(JS option errorMsg controls markup)
-*/
-
-
-/* previews */
-
-
-/* end previews  */
-
-
-/*end-commonstyles photoswipe*/
-
-
-/*begin-commonstyles photoswipe-default*/
-
-
-/*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
-
-
-/*
-
-	Contents:
-
-	1. Buttons
-	2. Share modal and links
-	3. Index indicator ("1 of X" counter)
-	4. Caption
-	5. Loading indicator
-	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
-
-*/
-
-
-/*
-
-	1. Buttons
-
- */
-
-
-/* <button> css reset */
-
-
-/* pswp__ui--over-close class it added when mouse is over element that should close gallery */
-
-@media (-webkit-min-device-pixel-ratio: 1.1),
-(-webkit-min-device-pixel-ratio: 1.09375),
-(min-resolution: 105dpi),
-(min-resolution: 1.1dppx) {
-    /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
-}
-
-
-/* no arrows on touch screens */
-
-
-/*
-	Arrow buttons hit area
-	(icon is added to :before pseudo-element)
-*/
-
-
-/*
-
-	2. Share modal/popup and links
-
- */
-
-
-/* increase size of share links on touch devices */
-
-
-/*
-
-	3. Index indicator ("1 of X" counter)
-
- */
-
-
-/*
-
-	4. Caption
-
- */
-
-
-/* Fake caption element, used to calculate height of next/prev image */
-
-
-/*
-
-	5. Loading indicator (preloader)
-
-	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
-
- */
-
-
-/*
-
-	6. Additional styles
-
- */
-
-
-/* root element of UI */
-
-
-/* top black bar with buttons and "1 of X" indicator */
-
-
-/* pswp--has_mouse class is added only when two subsequent mousemove events occur */
-
-
-/* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
-
-
-/* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
-
-
-/*
-	pswp__ui--hidden class is added when controls are hidden
-	e.g. when user taps to toggle visibility of controls
-*/
-
-
-/* pswp__ui--one-slide class is added when there is just one item in gallery */
-
-
-/*end-commonstyles photoswipe-default*/
-
-
-/*begin-commonstyles animation*/
-
-
-/* Fix zoomIn animation for Internet Explorer */
-
-
-/*end-commonstyles animation*/
-
-
-/*begin-variables font-family*/
-
-h4 {
-    font-family: Roboto, sans-serif;
-}
-
-
-/*end-variables font-family*/
-
-
-/*begin-variables color*/
-
-
-/*end-variables color*/
-
-
-/*begin-variables font*/
-
-
-/*end-variables font*/
-
-
-/*begin-variables colors*/
-
 .u-text-grey-50 {
     color: #808080 !important;
 }
 
-
-/*end-variables colors*/
-
-
-/*begin-variables sitestylecss*/
-
 .u-text-custom-color-4 {
     color: #8d83bf !important;
-}
-
-
-/** common-rules **/
-
-h4 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.2;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-
-/** common-rules **/
-
-
-/** publish-rules **/
-
-
-/*begin-media rules*/
-
-
-/*end-media rules*/
-
-
-/** publish-rules **/
-
-
-/** cms-rules **/
-
-
-/*begin-responsive rules*/
-
-
-/*end-responsive rules*/
-
-
-/** cms-rules **/
-
-
-/** color-rules **/
-
-a {
-    color: #478ac9;
-}
-
-a:hover {
-    color: #387cbd;
-}
-
-
-/** color-rules **/
-
-
-/** alt-color-rules **/
-
-
-/** alt-color-rules **/
-
-
-/*end-variables sitestylecss*/
-
-
-/*begin-variables base-font-size*/
-
-html {
-    font-size: 16px;
-}
-
-
-/*end-variables base-font-size*/
-
-.u-header .u-sheet-1 {
-    min-height: 80px;
 }
 
 @media (max-width: 575px) {
@@ -2335,10 +766,6 @@ a.u-button-style.u-button-style.u-text-palette-5-dark-1[class*="u-border-"].acti
     }
 }
 
-.u-align-right {
-    text-align: right;
-}
-
 @media (min-width: 1200px) {
     .u-align-right-xl {
         text-align: right;
@@ -2367,10 +794,6 @@ a.u-button-style.u-button-style.u-text-palette-5-dark-1[class*="u-border-"].acti
     .u-align-right-xs {
         text-align: right;
     }
-}
-
-.u-container-style:not([class*="u-align-"]) {
-    text-align: left;
 }
 
 .u-layout-cell,
@@ -2763,4 +1186,113 @@ a.u-button-style.u-text-grey-50[class*="u-border-"] {
 a.u-button-style.u-text-grey-60,
 a.u-button-style.u-text-grey-60[class*="u-border-"] {
     color: #666666 !important;
+}
+
+.u-group .u-container-layout>* {
+    position: relative;
+}
+
+.u-group {
+    display: flex;
+}
+
+section.u-image,
+.u-sheet.u-image,
+.u-group.u-image,
+.u-layout-cell.u-image {
+    overflow: visible;
+}
+
+section>*,
+header>*,
+footer>*,
+.u-sheet>* {
+    position: relative;
+}
+
+.u-sheet-left {
+    left: calc((100% - 1140px) / 2);
+}
+
+.u-sheet-right {
+    right: calc((100% - 1140px) / 2);
+}
+
+section.u-image,
+.u-sheet.u-image,
+.u-group.u-image,
+.u-layout-cell.u-image {
+    overflow: visible;
+}
+
+.u-sheet {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .u-sheet {
+        width: 1140px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .u-sheet {
+        width: 1140px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .u-sheet {
+        width: 940px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .u-sheet {
+        width: 720px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .u-sheet {
+        width: 540px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-sheet {
+        width: 340px;
+    }
+}
+
+.u-sheet .u-sheet {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+     :not(.u-sheet)>[class*="u-gutter-"]:not(.u-gutter-0).u-expanded-width {
+        overflow: hidden;
+    }
+}
+
+.u-sheet.u-content-layout {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 991px) {
+    .u-sheet.u-content-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.u-header .u-sheet-1 {
+    min-height: 80px;
+}
+
+.u-footer .u-sheet-1 {
+    min-height: 120px;
 }
