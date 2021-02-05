@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { Carousel } from 'react-bootstrap'
-
+import React from 'react'
 const Performances = () => {
 
     const { t, i18n } = useTranslation()
