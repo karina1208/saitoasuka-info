@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/saitoasuka-info/precache-manifest.069c6333dc9b8ae245522a8a2e3354f0.js"
+  "/saitoasuka-info/precache-manifest.41b83ef3f6c580d24ecc699bd8d56cbf.js"
 );
 
 workbox.clientsClaim();
