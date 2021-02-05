@@ -6,7 +6,7 @@ A website that shows Saito Asuka's information
 Also my first react app :)
 
 ## Website
-[karina1208.github.io/saitoasuka-info/](karina1208.github.io/saitoasuka-info/)
+[karina1208.github.io/saitoasuka-info/](https://https://karina1208.github.io/saitoasuka-info/#/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
