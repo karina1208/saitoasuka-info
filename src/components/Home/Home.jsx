@@ -1,7 +1,6 @@
 import React from "react"
 import { useTranslation } from 'react-i18next'
 import LanguageSelector from './../LanguageSelector'
-// import './nicepage_home.css'
 import './home.css'
 import './custom.scss'
 

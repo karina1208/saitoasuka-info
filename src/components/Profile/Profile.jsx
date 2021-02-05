@@ -7,7 +7,8 @@ import Performances from "./Performances"
 import Navigationbar from "./../Navigationbar"
 
 import './profile.css'
-import './../../nicepage.css'
+// import './../../nicepage.css'
+import './../../new.css'
 import './custom.css'
 
 

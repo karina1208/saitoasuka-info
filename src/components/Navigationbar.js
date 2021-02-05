@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import LanguageSelector from './LanguageSelector'
 import './customNav.css'
-import './../nicepage.css'
+
 
 const Navigationbar = () => {
   const { t, i18n } = useTranslation()
