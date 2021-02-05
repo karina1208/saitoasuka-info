@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Video } from './Video'
 import VideoDetail from './VideoDetail'
-import './nicepageVideo.css'
+// import './nicepageVideo.css'
 import './Page-1Video.css'
 import VideoBreadcrumb from './VideoBreadcrumb'
 

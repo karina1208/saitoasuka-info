@@ -3,7 +3,7 @@ import React, { useState, useContext } from 'react'
 import { Accordion, Card, Row, Col, Button, Collapse, AccordionContext } from 'react-bootstrap'
 import Song from './Song'
 
-import './nicepage.css'
+
 import './Page-1test.css'
 import './custom.css'
 

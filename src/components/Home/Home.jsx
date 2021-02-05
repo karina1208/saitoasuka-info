@@ -1,7 +1,7 @@
 import React from "react"
 import { useTranslation } from 'react-i18next'
 import LanguageSelector from './../LanguageSelector'
-import './nicepage_home.css'
+// import './nicepage_home.css'
 import './home.css'
 import './custom.scss'
 
@@ -12,6 +12,8 @@ import TypeTitle from './../Video/TypeTitle'
 
 const Home = () => {
   const { t, i18n } = useTranslation()
+
+
 
   const sortedNewVideo = t('videoList').slice().sort((a, b) => b.date - a.date)
   const first4video = sortedNewVideo.slice(0, 6)

@@ -6,7 +6,7 @@ import { Video } from './Video'
 import { Container } from 'react-bootstrap'
 import Videoo from './Videoo'
 
-import './nicepageVideo.css'
+// import './nicepageVideo.css'
 import './Page-1Video.css'
 import VideoBreadcrumb from './VideoBreadcrumb'
 
