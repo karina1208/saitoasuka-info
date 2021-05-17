@@ -590,6 +590,23 @@
                 "title": "Wilderness world",
                 "type": null
             }]
+        },
+        {
+            "title": "ごめんねFingers crossed",
+            "genre": "27th シングル",
+            "sen": true,
+            "position": "福神",
+            "positionNo": 2,
+            "formation": [
+                [13, 14, 15, 16, 17, 18, 19, 20],
+                [6, 7, 8, 9, 10, 11, 12],
+                [1, 2, 3, 4, 5]
+            ],
+            "image": "27.jpg",
+            "cwsong": [{
+                "title": "全部 夢のまま",
+                "type": null
+            }]
         }
     ],
     "videolabel": "動画",
